@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 220px;
+    width: 580px;
+    margin-left: 20px;
+   
+}
+
+.heading {
+    background-color: #346ba6; /* Background color for heading */
+    padding: 10px 20px;
+}
+
+.headingText {
+    margin: 0;
+    color: #ffffff; /* Text color for heading */
+    font-size: 15px;
+    text-align: center;
+}
+

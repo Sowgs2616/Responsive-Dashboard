@@ -1,0 +1,30 @@
+.pieChartContainer {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 580px; /* Adjust the width of the chart container */
+    height: 220px;
+    margin-left:30px ;
+   
+}
+
+.heading {
+    background-color: #346ba6; /* Background color for the heading */
+    padding: 10px 20px;
+    margin: 0%;
+}
+
+.headingText {
+    margin: 0;
+    color: #ffffff; /* Text color for the heading */
+    font-size: 15px;
+    text-align: center;
+}
+
+.chartContainer {
+    
+    height: 240px; /* Set height as per your requirement */
+    width: 600px;
+}

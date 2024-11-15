@@ -1,0 +1,18 @@
+.chart-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates two columns */
+    grid-template-rows: auto auto; /* Creates two rows */
+    gap: 20px; /* Spacing between the grid items */
+    width: 100%;
+    max-width: 900px;
+    padding: 20px; /* Optional padding around the grid */
+    border-top-color: blue;
+  }
+  
+  .chart-grid > * {
+    background-color: #1a1a2e; /* Optional background color for each chart */
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for each chart */
+  }
+  
+  

@@ -1,0 +1,114 @@
+
+
+body {
+  background-color: rgb(40, 30, 111);
+  color: rgb(172, 164, 164); /* Optional: Makes text white for better contrast against the black background */
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+.button {
+  width: 1315px;
+  max-width: 1330px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: darkviolet;
+  background-color: #1a1a2e;
+  margin-left: 62px;
+  height: 550px;
+
+}
+
+/* Button container styles */
+.button-container {
+  display: flex;
+  padding-left: 40%;
+  border-bottom-color:#261ca8;
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+  
+}
+
+/* Summary button */
+.button-container button {
+  padding: 6px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin-left: 40px;
+  
+}
+.button-container .active {
+  background-color:rgb(53, 53, 144); /* Active color for Summary */
+}
+
+.karmagpt-btn.active {
+  background-color:rgb(53, 53, 144); /* Active color for cyberkarmaGPT */
+
+/* Custom styles for Summary button */
+.button-container button:first-child {
+  background-color: #82838a;
+  color: #d8cdcd;
+}
+
+.button-container button:first-child:hover {
+  background-color: #b3b2b8;
+}
+
+/* Custom styles for CyberkarmaGPT button */
+.karmagpt-btn {
+  background-color: #9c9da9;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.karmagpt-btn:hover {
+  background-color: #b5bbc1;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+/* Content container for displaying components when buttons are clicked */
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 200px;
+  background-color: #9fa4ac;
+  border-radius: 10px;
+  border: 1px solid #5440a6;
+}
+
+/* Ensure content takes full width in smaller screens */
+@media (max-width: 768px) {
+  .app {
+      padding: 20px;
+  }
+  .button {
+      width: 100%;
+      padding: 10px;
+  }
+  .button-container {
+      flex-direction: column;
+      align-items: stretch;
+  }
+  .button-container button {
+      margin-bottom: 10px;
+      width: 100%;
+  }
+}
+
+
+}

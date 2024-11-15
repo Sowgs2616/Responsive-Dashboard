@@ -1,0 +1,73 @@
+/* CyberkarmaGPTChatbot.css */
+.chat-window {
+    width: 1300px;
+    height: 500px;
+    background-color: #1a1a2e;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+  }
+  
+  .message-container {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    height: 30px;
+  }
+  
+  .message {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    height: 40px;
+    width: 35%;
+  }
+  
+  .bot-message {
+    background-color:rgb(53, 53, 144);
+    align-self: flex-start;
+    
+  }
+  
+  .user-message {
+    background-color:darkblue;
+    color: white;
+    align-self: flex-end;
+    margin-left: 60%;
+  }
+ 
+  .input-container {
+    display: flex;
+    border-top: 1px solid rgb(53, 53, 144);
+    
+    height: 40px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(53, 53, 144);
+  }
+  
+  .send-button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .plus-icon {
+    position: absolute;
+    cursor: pointer;
+    color: #c1c6cc;
+    font-size: 30px;
+    padding: 5px;
+  }
+  
+  

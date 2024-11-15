@@ -1,0 +1,203 @@
+
+.app {
+  background-color: #0e0e1a;
+  color: #fff;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  max-height:none;
+  
+ 
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #1a1a2e;
+  border-radius: 8px;
+  width:1350px;
+  margin-left: 50px;
+  
+  
+}
+/* Circle around the arrow */
+.arrow-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px; /* Size of the circle */
+  height: 30px; /* Size of the circle */
+  border-radius: 50%; /* Makes it circular */
+  background-color:blueviolet;
+  border: 2px solid blueviolet; /* Circle border color */
+  margin-left: 10px; /* Space between text and the circle */
+}
+
+/* Arrow inside the circle */
+.arrow {
+  font-size: 18px; /* Adjust size of the arrow */
+  transition: transform 0.3s ease;
+}
+
+
+/* Rotate the arrow when content is visible */
+.arrow.rotate {
+  transform: rotate(180deg); /* Rotates the arrow 180 degrees */
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid #6a0dad;
+  border-radius: 8px;
+}
+
+.dropdown {
+  background-color: #6a0dad;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.progress-indicators {
+  display: flex;
+  padding-left: 50%;
+  gap: 40px;
+ 
+}
+
+
+
+.indicator {
+  color: #fff;
+  font-size: 14px;
+}
+
+.correct {
+  color: #65ff65;
+}
+
+.incorrect {
+  color: #ff6565;
+}
+
+.dont-know {
+  color: #ffbf65;
+}
+
+.filter-buttons {
+  display: flex;
+  margin-left: 53%;
+  width: 1400px;
+  padding: 20px;
+  gap: 40px;
+  
+}
+
+.filter-button1 {
+  background: #7d7878;
+  color: #fff;
+  border:#fff;
+  border-radius: 60px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.filter-button2 {
+  background: #271560;
+  color: #fff;
+  border:#fff;
+  border-radius: 60px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.filter-button3 {
+  background: #271560;
+  color: #fff;
+  border:#fff;
+  border-radius: 60px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.filter-button4 {
+  background: #271560;
+  color: #fff;
+  border:#fff;
+  border-radius: 60px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 1350px;
+  padding-left: 47px;
+  
+  
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #2e2e48;
+  border-radius: 8px;
+  height: 52px;
+  border: 1px solid darkviolet;
+ 
+}
+
+.section-title {
+  flex: 1;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+  gap: 100px;
+}
+
+.status-button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vulnerability {
+  background-color: #ff5656;
+}
+
+.soc {
+  background-color: #ffa500;
+}
+
+.hardening {
+  background-color: #65a1ff;
+}
+
+.navigate {
+  background: none;
+  border: none;
+  color: #ccc;
+  font-size: 24px;
+  cursor: pointer;
+}
